@@ -1,0 +1,19 @@
+
+
+.form button {
+    background-color: rgb(143, 5, 182);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 2.6rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+.form button:hover {
+    background-color: rgb(176, 16, 221);
+}
+
+.form button:active {
+    background-color: rgb(104, 5, 132);
+}

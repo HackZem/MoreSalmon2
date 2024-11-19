@@ -1,0 +1,58 @@
+.btn {
+  background-color: rgb(101, 10, 157);
+  border-radius: 15px;
+  width: 7rem;
+  height: 2.7rem;
+  display: flex;
+  border: none;
+}
+
+.btn-icon {
+  width: 2rem;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: azure;
+  padding: 2px 2px;
+}
+
+.btn-text {
+  font-size: 1rem;
+}
+
+.btn-badge {
+  background-color: rgb(242, 166, 43);
+  padding: 5px 9px;
+  border-radius: 100%;
+  justify-self: flex-end;
+  align-items: flex-start;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump{
+  0%{
+    transform: scale(1);
+  }
+  10%{
+    transform: scale(0.9);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  50%{
+    transform: scale(1.15);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

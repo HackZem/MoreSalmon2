@@ -1,0 +1,61 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin-block-start: 0;
+    margin: 0;
+    padding-bottom: 8px;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    border: 1px solid #6b068a;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #47035d;
+  border-color: #47035d;
+  color: white;
+}
+
+.btn {
+    background-color: #6b068a;
+    color: white;
+}
+
+.text {
+    font-size: 1.7rem;
+    color: rgb(12, 12, 10);
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.recommend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.btn-alt {
+    color: #6b068a;
+}

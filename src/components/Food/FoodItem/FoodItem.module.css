@@ -1,0 +1,27 @@
+.food {
+  border-bottom: 1px solid #ccc;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-content {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-content h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(112, 48, 135);
+}
